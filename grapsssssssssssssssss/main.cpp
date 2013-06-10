@@ -73,16 +73,16 @@ int main()
       } 
    } 
    
-   cout << "²ãğè, âèãğàâ â³í ÷è ïğîãğàâ ï³ñëÿ 20-ğîë" 
-      << "\n â³äîáğàæàşòüñÿ ó âèãëÿä³ 21-ğîë.\n\n";
+   cout << "Ğ†Ğ³Ñ€Ğ¸, Ğ²Ğ¸Ğ³Ñ€Ğ°Ğ² Ğ²Ñ–Ğ½ Ñ‡Ğ¸ Ğ¿Ñ€Ğ¾Ğ³Ñ€Ğ°Ğ² Ğ¿Ñ–ÑĞ»Ñ 20-Ñ€Ğ¾Ğ»" 
+      << "\n Ğ²Ñ–Ğ´Ğ¾Ğ±Ñ€Ğ°Ğ¶Ğ°ÑÑ‚ÑŒÑÑ Ñƒ Ğ²Ğ¸Ğ³Ğ»ÑĞ´Ñ– 21-Ñ€Ğ¾Ğ».\n\n";
 
    
    for ( int z = 1; z <= 21; ++z ) 
-      cout << setw( 3 ) << wins[ z ] << " âèãğàíèõ ³ãîğ ³" << setw( 3 )
-         << losses[ z ] << " ãğè lost on / roll " << z << '\n';
+      cout << setw( 3 ) << wins[ z ] << " Ğ²Ğ¸Ğ³Ñ€Ğ°Ğ½Ğ¸Ñ… Ñ–Ğ³Ğ¾Ñ€ Ñ–" << setw( 3 )
+         << losses[ z ] << " Ğ³Ñ€Ğ¸ lost on / roll " << z << '\n';
    
   
-   cout << fixed << showpoint << "\nØàíñè íà ïåğåìîãó " << winSum 
+   cout << fixed << showpoint << "\nĞ¨Ğ°Ğ½ÑĞ¸ Ğ½Ğ° Ğ¿ĞµÑ€ĞµĞ¼Ğ¾Ğ³Ñƒ " << winSum 
       << " / " << winSum + loseSum << " = " << setprecision( 2 )
       << 100.0 * winSum / ( winSum + loseSum ) << "%\n";
    
@@ -90,7 +90,7 @@ int main()
    for ( int k = 1; k <= 21; k++ )
       length += wins[ k ] * k + losses[ k ] * k;
 
-   cout << "Ñåğåäíÿ äîâæèíà ³ãğè " << setprecision( 2 )
+   cout << "Ğ¡ĞµÑ€ĞµĞ´Ğ½Ñ Ğ´Ğ¾Ğ²Ğ¶Ğ¸Ğ½Ğ° Ñ–Ğ³Ñ€Ğ¸ " << setprecision( 2 )
       << length / 1000.0 << " rolls." << endl;
    system("pause");
 } 
